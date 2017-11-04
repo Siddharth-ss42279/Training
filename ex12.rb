@@ -1,12 +1,7 @@
-print "Give me a number: "
-number = gets.chomp.to_f
+print "hey ! enter money, i will tell you 10% of that "
 
-bigger = number * 100
-puts "A bigger number is #{bigger}."
+money = gets.chomp.to_f
 
-print "Give me another number: "
-another = gets.chomp
-number = another.to_f
+back = money / 10
 
-smaller = number / 100
-puts "A smaller number is #{smaller}."
+puts "your 10 % of money entered is = #{back}"
