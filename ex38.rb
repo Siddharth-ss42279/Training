@@ -17,7 +17,7 @@ end
 puts "There we go: #{stuff}"
 puts "Let's do some things with stuff."
 
-puts stuff[1]
+puts stuff[0]
 puts stuff[-1] # whoa! fancy
 puts stuff.pop()
 puts stuff.join(' ')
