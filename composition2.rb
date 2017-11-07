@@ -14,8 +14,7 @@ module Other
 end
 
 class Child
-  include Other
-
+include Other
   def override()
     puts "CHILD override()"
   end
